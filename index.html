@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,15 @@
     <link rel="stylesheet" href="style.css">
     <title>AssinarDocumentosOnline</title>
 </head>
+
 <body>
+
+    <!--FORMULARIO DE LOGIN/SENHA-->
     <form class="contact_form">
         <div>
             <div><label for="">Email</label></div>
-            <input type="email" name="email" onchange="validateFields()" id="email" placeholder="seuemailaqui@exemplo.com">
+            <input type="email" name="email" onchange="validateFields()" id="email"
+                placeholder="seuemailaqui@exemplo.com">
             <div class="error" id="email-required-error">Email é Obrigatório</div>
             <div class="error" id="email-invalid-error">Email é inválido</div>
         </div>
@@ -21,15 +26,17 @@
             <div class="error" id="password-required-error">Senha é obrigatória</div>
         </div>
         <div>
-            <button type="button"  id="recover-password-button" aria-disabled="true">Recuperar Senha</button>
+            <button type="button" id="recover-password-button" aria-disabled="true">Recuperar Senha</button>
         </div>
         <div>
-            <button type="button"  id="login-button">Entrar</button>
+            <button type="button" id="login-button">Entrar</button>
         </div>
         <div>
             <button type="button">Registrar</button>
         </div>
     </form>
+    <!--FORMULARIO DE LOGIN/SENHA-->
 </body>
-    <script src="index.js"></script>
+<script src="index.js"></script>
+
 </html>
